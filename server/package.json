@@ -1,0 +1,11 @@
+{
+  "name": "evelyn-hart-portfolio-api",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "powershell -NoProfile -ExecutionPolicy Bypass -File run-api.ps1 dev",
+    "start": "python serve.py start",
+    "check": "powershell -NoProfile -ExecutionPolicy Bypass -File run-api.ps1 check"
+  },
+  "description": "FastAPI and MongoDB backend; install Python packages from requirements.txt."
+}

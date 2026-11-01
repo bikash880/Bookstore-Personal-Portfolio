@@ -1,0 +1,13 @@
+node_modules/
+.next/
+out/
+coverage/
+__pycache__/
+*.pyc
+.vscode/
+AGENTS.md
+.env
+.env.*
+!server/.env.example
+!.env.local.example
+*.log
